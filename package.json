@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "watchify app/index.js -o public/build/index.js --debug"
+  },
+  "keywords": [
+    "a",
+    "b"
+  ],
+  "author": "ja",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "browserify": "^13.3.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0",
+    "qwest": "^4.4.5",
+    "watchify": "^3.8.0"
+  }
+}

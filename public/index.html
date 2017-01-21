@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatibile" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>TO DO LIST</title>
+
+  <!-- <link rel="stylesheet" type="text/css" href="https://github.com/kuba-orlik/css-vertical-rhythm-reset/blob/master/reset.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="http://basehold.it/24"> -->
+  <link rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link href="https://fonts.googleapis.com/css?family=Dekko&amp;subset=latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&amp;subset=latin-ext" rel="stylesheet"><!-- font-family: 'Amatic SC', cursive; -->
+
+</head>
+<body>
+<header><a href="#"><i class="demo-icon icon-home-outline"></i> TO-DO  APP</a></header>
+<main>
+
+  <div class="input_todo">
+  
+    <div>
+      <label for="content_todo">Treść:</label>
+      <textarea name="content_todo" id="content_todo" placeholder="np. Wyrzuć śmieci"></textarea>
+    </div>
+    <div>
+      <label for="data_todo">Do kiedy: </label>
+      <input type="date" id="data_todo">
+      <input type="submit" value="Dodaj" id="ADDKURWA">
+
+      <div id="errors">Brak treści lub daty</div>
+    </div>
+ 
+  </div>
+
+  <div id="list">
+    <ul id="lista_todo">
+    </ul>
+  </div>
+
+  <input type="button" name="" value="Usuń" id="REMKURWA">
+
+  <footer>Wszelkie prawa zastrzeżone &copy; Muziol 2016</footer>
+
+</main> 
+
+<script src="build/index.js"></script>
+<script type="text/javascript" src="js/todo.js"></script>
+</body>
+</html>

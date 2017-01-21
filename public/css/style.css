@@ -1,0 +1,131 @@
+*{
+  margin: 0 auto;
+}
+body{
+  font-family: 'Dekko', cursive;
+  background-image: url(../img/1.jpg);
+  background-repeat: repeat;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main{
+  padding: 0.09rem;
+  margin-top: 2rem;
+  /*display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;*/
+}
+header{
+  margin: 0;
+  padding: 0.5rem;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 0.3rem solid #ffbb00;
+  background-color: #375e97;
+  color: #ffbb00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header a, header a:active, header {
+  text-decoration: none;
+  color: #ffbb00;
+  transition: all 2s;
+  border-bottom: 0.3rem solid #ffbb00;
+}
+header a:hover, header:hover {
+  color: #fb6542;
+  border-bottom: 0.3rem solid #fb6542;
+}
+.input_todo div{
+  margin: 1.5rem;
+  height: 18rem;
+  width: 32rem;
+  float: left;
+  background-color: #3f681c;
+  color: #ffbb00;
+  border: 2px solid #ffbb00;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#list{
+  clear: both;
+  margin: 1.2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content_todo {
+  height: 12rem;
+  max-height: 12rem;
+  width: 30rem;
+  max-width: 30rem;
+  background-color: #375e97;
+  word-wrap: break-word;
+  color: white;
+  font-family: 'Dekko', cursive;
+  font-size: 2rem;
+}
+#contend_todo:hover {
+  cursor: pointer;
+}
+.input_todo{
+  margin: 0.6rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.input_todo input[type=submit] {
+  background-color: #375e97;
+  color: #ffbb00;
+  width: 15rem;
+  height: 5rem;
+  transition: all 2s;
+  font-size: 3rem;
+  font-family: 'Dekko', cursive;
+}
+.input_todo input[type=submit]:hover {
+  background-color: #ffbb00;
+  color: #375e97;
+}
+footer {
+  margin: 2.7rem 0 auto auto;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 4rem;
+}
+.input_todo input[type=date]{
+  width: 27rem;
+}
+#errors {
+  margin: 0;
+  width: 18rem;
+  height: auto;
+  color: red;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+#lista_todo {
+  padding: 0.5rem;
+  line-height: 2.5rem;
+  list-style-type: none;
+}
+label {
+  line-height: 3rem;
+}
+li {
+  background-color: white;
+  color: black;
+}
